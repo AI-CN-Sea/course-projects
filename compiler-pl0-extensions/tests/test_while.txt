@@ -1,0 +1,10 @@
+var i;
+begin
+   i := 1;
+   while i < 10 do
+      begin
+         write(i);
+         i := i + 1;
+      end;
+   write(100);
+end.

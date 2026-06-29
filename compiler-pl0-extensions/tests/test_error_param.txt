@@ -1,0 +1,9 @@
+var r;
+procedure add(x, y);
+begin
+   r := x + y;
+end;
+begin
+   call add(1);
+   write(r);
+end.

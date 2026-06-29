@@ -1,0 +1,26 @@
+﻿# Dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Build/runtime output
+build/
+dist/
+target/
+*.log
+*.tmp
+*.bak
+*.exe
+
+# Local/private files
+.env
+.env.*
+!.env.example
+
+# Reports and paper-writing artifacts are excluded to avoid identity/document metadata leaks.
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+~$*

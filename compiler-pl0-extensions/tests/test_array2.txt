@@ -1,0 +1,13 @@
+const n = 3;
+var a(0:n), i;
+begin
+   i := 0;
+   while i <= n do
+   begin
+      a(i) := i + 100;
+      i := i + 1;
+   end;
+   write(a(0));
+   write(a(1) + a(2));
+   write(a(n));
+end.

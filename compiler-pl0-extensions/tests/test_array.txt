@@ -1,0 +1,16 @@
+var a(1:5), i, sum;
+begin
+   i := 1;
+   while i <= 5 do
+   begin
+      a(i) := i * i;
+      i := i + 1;
+   end;
+   sum := 0;
+   i := 1;
+   repeat
+      sum := sum + a(i);
+      i := i + 1
+   until i > 5;
+   write(sum);
+end.

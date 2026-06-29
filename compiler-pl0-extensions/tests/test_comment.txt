@@ -1,0 +1,6 @@
+{ this program tests single line comments }
+var x;          { declare variable x }
+begin
+   x := 42;     { assign 42 to x }
+   write(x);    { output x }
+end.

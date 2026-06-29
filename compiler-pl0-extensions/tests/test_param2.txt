@@ -1,0 +1,16 @@
+var n, f;
+procedure fact(k);
+begin
+   if k <= 1 then
+      f := 1
+   else
+   begin
+      call fact(k - 1);
+      f := f * k;
+   end;
+end;
+begin
+   n := 5;
+   call fact(n);
+   write(f);
+end.

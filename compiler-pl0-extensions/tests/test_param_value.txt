@@ -1,0 +1,11 @@
+var x;
+procedure change(y);
+begin
+   y := y + 10;
+   write(y);
+end;
+begin
+   x := 5;
+   call change(x);
+   write(x);
+end.

@@ -1,0 +1,26 @@
+{ comprehensive test: array + value-param procedure + repeat + if-else + comment }
+const size = 5;
+var data(1:size), i, total;
+procedure fill(base);
+var k;
+begin
+   k := 1;
+   repeat
+      data(k) := base + k;
+      k := k + 1
+   until k > size;
+end;
+begin
+   call fill(10);          { data(k) = 10 + k }
+   total := 0;
+   i := 1;
+   while i <= size do
+   begin
+      total := total + data(i);
+      i := i + 1;
+   end;
+   if total = 65 then      { (11+12+13+14+15) = 65 }
+      write(total)
+   else
+      write(0);
+end.

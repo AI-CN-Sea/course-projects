@@ -1,0 +1,5 @@
+var a(3:4);
+begin
+   read(a(3), a(4));
+   write(a(3) + a(4));
+end.

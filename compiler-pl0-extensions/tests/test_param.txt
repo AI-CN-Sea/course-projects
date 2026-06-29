@@ -1,0 +1,9 @@
+var result;
+procedure sum3(a, b, c);
+begin
+   result := a + b + c;
+end;
+begin
+   call sum3(10, 20, 30);
+   write(result);
+end.

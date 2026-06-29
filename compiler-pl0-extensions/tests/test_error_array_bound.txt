@@ -1,0 +1,4 @@
+var a(5:3);
+begin
+   write(1);
+end.
